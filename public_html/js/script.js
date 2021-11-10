@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // test New Branch
+    var test = [];
     var socket = io.connect('http://localhost:5000');
     var arr = []; // List of users
 
