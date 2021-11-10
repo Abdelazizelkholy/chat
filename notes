@@ -1,1 +1,9 @@
 1- DB_SOCKET=/var/run/mysqld/mysqld.sock  in file .env
+2- server folder include
+    a- npm install express --save
+    b- npm install http --save
+    c- npm install socket.io --save
+    d- npm install nodemon --save-dev
+3- establish connection
+4- create socket file  include ( constructor & connection & disconnection  )
+    call socket file in  server.js
